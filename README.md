@@ -24,4 +24,5 @@ If you build using QtCreator, you may need to
 2. Add the `bin` dir of your Coin installation to the `PATH` variable in the *run settings*.
  
 Or
+
 1. Copy `coin3.dll` and `coin3d.dll` to your `build/Debug` folder.

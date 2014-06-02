@@ -30,7 +30,14 @@ ADD_DEFINITIONS(
 	${INVENTOR_DEFS}
 )
 	
-ADD_EXECUTABLE(OculusCoinVeelo src/main.cpp)
+SET(PROJECT_HEADERS
+	src/CoinRiftWidget.h
+)
+SET(PROJECT_SOURCES
+	src/CoinRiftWidget.cpp
+)
+
+ADD_EXECUTABLE(OculusCoinVeelo src/main.cpp ${PROJECT_HEADERS} ${PROJECT_SOURCES})
 TARGET_LINK_LIBRARIES(OculusCoinVeelo  
 	Qt5::Core
 	Qt5::Gui
