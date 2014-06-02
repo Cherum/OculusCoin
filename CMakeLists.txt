@@ -46,7 +46,7 @@ TARGET_LINK_LIBRARIES(OculusCoinVeelo
 	Setupapi.lib
 )
 set(CMAKE_MODULE_PATH
-	${CMAKE_MODULE_PATH}/OculusSDK_0.3.1/CMake/Modules
+	${CMAKE_SOURCE_DIR}/OculusSDK_0.3.1/CMake/Modules
 )
 add_subdirectory(
 	${CMAKE_SOURCE_DIR}/OculusSDK_0.3.1
